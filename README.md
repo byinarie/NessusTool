@@ -24,11 +24,11 @@ pip3 install -r requirements.txt
 
 * Create a scan — Requires [Nessus Manager](https://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/datasheets/NessusManager-(DS)-EN-v4_0.pdf)
 ```python
-python3 NessusTool.py create-scan --api-key KEY --secret KEY --remote-host HOSTNAME
+python3 NessusTool.py create-scan --api-key KEY --secret SECRET --remote-host HOSTNAME
 ```
 * List policies
 ```python
-python3 NessusTool.py list-policies --api-key KEY --secret KEY --remote-host HOSTNAME
+python3 NessusTool.py list-policies --api-key KEY --secret SECRET --remote-host HOSTNAME
 ```
 * Export scan results
 ```python
