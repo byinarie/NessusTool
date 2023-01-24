@@ -16,7 +16,7 @@ NessusTool
 
 ## Install
 ```bash
-git clone https://github.com/
+git clone https://github.com/byinarie/NessusTool.git
 pip3 install -r requirements.txt 
 ```
 
